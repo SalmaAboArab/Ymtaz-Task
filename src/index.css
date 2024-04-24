@@ -1,0 +1,47 @@
+body{
+    background: #F9F9F9;
+    font: 'Almarai';
+}
+.mainColor{
+    color: #DDB762;
+}
+.secondColor{
+    color: #2C4768;
+}
+.mutetext{
+    color: #A3A4A5;
+    font-weight: 400;
+}
+
+.services{
+    background-color:'#F9F9F9';
+}
+.section:hover{
+    background: linear-gradient(140deg,#DDB762,rgba(0,0,0,0.6));  
+    /* transition: ease-in-out all 0.5s; */
+    .categoryImg{
+    background: linear-gradient(140deg,#DDB762,rgba(0,0,0,0.6));  
+    }
+}
+.section{
+    background-color: rgba(249, 218, 213, 0.1);
+}
+.categoryImg{
+    width: 100px;
+    height: 100px;
+}
+
+.lawyerImg{
+    background-image: url(assets/lawyerImg.png);
+    background-size: cover;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.pageOverflow::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .pageOverflow {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
