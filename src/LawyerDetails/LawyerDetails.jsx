@@ -67,9 +67,9 @@ export default function LawyerDetails() {
           </div>
 
           <div className="row justify-content-center mt-2">
-          <div className="mutetext w-75 py-3" style={{borderTopLeftRadius:'30px', borderBottomRightRadius:'30px',backgroundColor:'#F9F9F9'}}>
+          <div className="mutetext col-lg-9 py-3" style={{borderTopLeftRadius:'30px', borderBottomRightRadius:'30px',backgroundColor:'#F9F9F9'}}>
             <i className="fa fa-quote-right-alt text-black"></i> &nbsp;<span>تميز الاستشاري بالاحترافية والخبرة العالية في المسائل القانونية</span>
-            <div className="d-flex mt-5 ">
+            <div className="d-flex mt-5">
                 {starArr.map(() => (
                   <i className="fa fa-star mx-1" style={{color:'#E2A03F'}}></i>
                 ))}
